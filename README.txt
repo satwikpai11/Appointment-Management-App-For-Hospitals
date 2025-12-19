@@ -1,4 +1,4 @@
-Appointment Management App – KMC Manipal
+INDUSTRY PROJECT - KMC Hospital, Manipal - Appointment Management App
 
 Overview
 
@@ -94,32 +94,6 @@ Steps
 	3.	Allow Gradle to sync dependencies
 	4.	Connect an Android device or start an emulator
 	5.	Run the application
-
-⸻
-
-Intended Use
-
-This application is intended as:
-	•	An academic Android project
-	•	A prototype appointment management system for hospitals
-	•	A demonstration of Android UI flows and backend integration
-
-⸻
-
-Limitations
-	•	Designed for a single hospital context
-	•	No role-based authentication for doctors or administrators
-	•	No billing or medical record integration
-	•	Not optimized for large-scale hospital deployment
-
-⸻
-
-Future Enhancements
-	•	Doctor and admin login roles
-	•	Appointment reminders via notifications
-	•	Calendar-based scheduling view
-	•	Integration with hospital information systems
-	•	Improved search and filtering
 
 ⸻
 
