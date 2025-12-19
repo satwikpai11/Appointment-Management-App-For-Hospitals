@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#eef2f8</color>
+    <color name="colorPrimaryDark">#eef2f8</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="purplee">#414d9e</color>
+    <color name="notwhite">#eef2f8</color>
+    <color name="notblacktext">#4a4a4a</color>
+    <color name="allblack">#000000</color>
+    <color name="thatblue">#4354b3</color>
+
+</resources>

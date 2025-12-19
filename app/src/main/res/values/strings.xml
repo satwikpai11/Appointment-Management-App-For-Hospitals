@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AapointAgain</string>
+
+    <string-array name="doctors">
+        <item>Dr. Girish</item>
+        <item>Dr. Raghavendra</item>
+        <item>Dr. Vinod</item>
+        <item>Dr. Lakshmiprasad</item>
+        <item>Dr. Rajesh</item>
+        <item>Dr. Aswin</item>
+    </string-array>
+
+    <string-array name="diagnosis">
+        <item>Cerebrovascular</item>
+        <item>Traumatic Brain Injury</item>
+        <item>Neuro-Oncology</item>
+        <item>Spine</item>
+        <item>Paediatrics</item>
+        <item>Functional Neurosurgery</item>
+    </string-array>
+
+</resources>

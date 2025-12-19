@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DateSelect"
+    android:background="@color/notwhite">
+
+
+    <ImageView
+        android:id="@+id/steth1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="0dp"
+        android:rotation="-20"
+        android:src="@drawable/steth1"
+        android:text="Making An Appointment"
+        android:textColor="@color/notblacktext"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/AppType"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10000dp"
+        android:layout_toEndOf="@+id/text1"
+        android:layout_toRightOf="@+id/text1"
+        android:text="THIS IS THAT FAKE METHOD FOR GETTING DAYS FROM DATABASE"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:textSize="16dp"
+        android:text="Making an appointment for " />
+
+
+    <TextView
+        android:id="@+id/DocName"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:text="Dr. Giris"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/hiddenColon"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/DocName"
+        android:layout_toRightOf="@+id/DocName"
+        android:text=":"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/hiddenA"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/text1"
+        android:layout_toRightOf="@+id/text1"
+        android:text="a "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/DiagnosisName"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Cerebrovascular"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/hiddenCase"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/DiagnosisName"
+        android:layout_toRightOf="@+id/DiagnosisName"
+        android:text=" case:"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/hiddendatess"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_toEndOf="@+id/DiagnosisName"
+        android:layout_toRightOf="@+id/DiagnosisName"
+        android:text=" case:"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/titleselectdoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Select a Date:"
+        android:textColor="@color/notblacktext"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hiddenQuest"
+        android:visibility="gone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="95dp"
+        android:layout_toEndOf="@+id/titleselectdoc"
+        android:layout_toRightOf="@+id/titleselectdoc"
+        android:src="@drawable/quest1" />
+
+
+    <RelativeLayout
+        android:layout_width="369dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_buttons_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.305"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ProgressBar
+            android:id="@+id/progressbar1"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="335dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="5dp"
+            android:indeterminateTint="@android:color/black"
+            android:outlineAmbientShadowColor="@color/notblacktext"
+            android:outlineSpotShadowColor="@color/notblacktext" />
+
+        <TextView
+            android:id="@+id/DateOfAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@null"
+            android:hint=" select..."
+            android:textColor="#4a4a4a"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="220dp"
+        android:text="which is a "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/DayPicked"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_toEndOf="@+id/text2"
+        android:layout_toRightOf="@+id/text2"
+        android:text="Sunday"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/hiddenFullStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:layout_toEndOf="@+id/DayPicked"
+        android:layout_toRightOf="@+id/DayPicked"
+        android:text="."
+        android:textSize="16dp"/>
+
+
+    <TextView
+        android:id="@+id/text551"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-540dp"
+        android:text="Appointments for "
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/againhiddenA"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-540dp"
+        android:layout_toEndOf="@+id/text551"
+        android:layout_toRightOf="@+id/text551"
+        android:text="a "
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/againdiagnosisName"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-540dp"
+        android:layout_toEndOf="@+id/againhiddenA"
+        android:layout_toRightOf="@+id/againhiddenA"
+        android:text="Cerebrovascular"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/againhiddenCase"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-560dp"
+        android:text="case can be made only on- "
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/day1docanddiagnosis"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-560dp"
+        android:layout_toEndOf="@+id/againhiddenCase"
+        android:layout_toRightOf="@+id/againhiddenCase"
+        android:text="Monday"
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/againdocName"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-540dp"
+        android:layout_toEndOf="@+id/text551"
+        android:layout_toRightOf="@+id/text551"
+        android:text="Dr. Girish"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/againhiddenCanBe"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-560dp"
+        android:text="can be made only on- "
+        android:textSize="16dp" />
+
+
+    <TextView
+        android:id="@+id/day1docanddiagnosis1"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-560dp"
+        android:layout_toEndOf="@+id/againhiddenCanBe"
+        android:layout_toRightOf="@+id/againhiddenCanBe"
+        android:text="Monday"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/againHiddenComma"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-560dp"
+        android:layout_toEndOf="@+id/day1docanddiagnosis1"
+        android:layout_toRightOf="@+id/day1docanddiagnosis1"
+        android:text=", "
+        android:textSize="16dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/day2docanddiagnosis"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="-560dp"
+        android:layout_toEndOf="@+id/againHiddenComma"
+        android:layout_toRightOf="@+id/againHiddenComma"
+        android:text="Friday"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/DocViewAppointments"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="-605dp"
+        android:indeterminateTint="@android:color/black"
+        android:outlineAmbientShadowColor="@color/notblacktext"
+        android:outlineSpotShadowColor="@color/notblacktext" />
+
+    <ImageView
+        android:id="@+id/care"
+        android:visibility="gone"
+        android:layout_width="87dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="70dp"
+        android:src="@drawable/care1"
+        android:text="LogOut"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/DocViewAppointments"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="368dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/home1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="596dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12.5dp"
+        android:background="@drawable/rounded_buttons_1"
+        android:text="C O N F I R M     D A T E"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.364"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/back1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/back2"
+        android:text="LogOut"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/home1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/home1"
+        android:text="LogOut"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

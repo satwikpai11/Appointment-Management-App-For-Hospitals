@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_for_pop_up">
+
+    <TextView
+        android:id="@+id/text551"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="If you wish to edit-"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text552"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text551"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="Name of the patient, the Doctor's Name"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/text553"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text552"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="the Diagnosis, Hospital  Number or"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/text554"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text553"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="Date of appointment"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text555"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text554"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="Please "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/text515"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text554"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/text555"
+        android:layout_toRightOf="@+id/text555"
+        android:text="Delete"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/text525"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text554"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_toEndOf="@+id/text515"
+        android:layout_toRightOf="@+id/text515"
+        android:text=" the appointment made"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/text556"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text555"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="under this name, and generate a "
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/text557"
+
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/text556"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="3dp"
+        android:text="New Appointment."
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/deleteFromPopup"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/text557"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/rounded_buttons_1"
+        android:text="DELETE"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/okayButton"
+
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/text557"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/rounded_buttons_4"
+        android:text="OKAY"
+        android:textColor="#4354b3"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+</RelativeLayout>

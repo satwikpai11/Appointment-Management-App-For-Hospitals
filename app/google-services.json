@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "261946263937",
+    "firebase_url": "https://aapointagain.firebaseio.com",
+    "project_id": "aapointagain",
+    "storage_bucket": "aapointagain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261946263937:android:b022ef86d2eef01239c080",
+        "android_client_info": {
+          "package_name": "com.example.aapointagain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261946263937-mm90fmf0dgi356igaalq30999m9nhiep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aapointagain",
+            "certificate_hash": "09713435d19e614da74d7dedf30eb11c5e184017"
+          }
+        },
+        {
+          "client_id": "261946263937-ri7aikq8m401kfrgf7in2b2iu013u10a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbwSMjvrBZhHy1ev2R5vbxaew0XCWBoLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261946263937-ri7aikq8m401kfrgf7in2b2iu013u10a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
