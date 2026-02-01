@@ -1,4 +1,4 @@
-INDUSTRY PROJECT - KMC Hospital, Manipal - Appointment Management App
+### Appointment Management App
 
 Overview
 
@@ -96,7 +96,3 @@ Steps
 	5.	Run the application
 
 ⸻
-
-Institution
-
-Kasturba Medical College (KMC), Manipal
